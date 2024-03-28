@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Easy Travel</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="logo-icon">
+      <img src="assets/7.png" alt="Logo" />
+    </div>
+    <div class="nav-container">
+      <button type="menu">Home</button>
+      <button type="menu">Our Package</button>
+      <button type="menu">Call Us</button>
+    </div>
+  </header>
+  <hr />
+  <!-- untuk garis samar -->
+
+  <main>
+    <section class="section-container">
+      <header>
+        <h1>Your Trused Travel Agent's</h1>
+        <h3>Your happiness is our happiness</h3>
+      </header>
+
+      <div class="section-content-container">
+        <!-- konten autoslide banner -->
+        <div class="section-content-kiri">
+          <div class="posting">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+
+              <!--slide image-->
+              <div class="slide first">
+                <img src="assets/1.jpeg" alt="Image" />
+              </div>
+              <div class="slide">
+                <img src="assets/2.jpg" alt="Image" />
+              </div>
+
+              <!--automatic button-->
+              <div class="navigation-auto">
+                <div class="auton-btn1"></div>
+                <div class="auton-btn2"></div>
+                <!-- <div class="auton-btn3"></div> -->
+              </div>
+            </div>
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <!-- <label for="radio3" class="manual-btn"></label> -->
+            </div>
+            <figcaption>
+              <q><i>Liburan jadi menyenangkan bersama Travel Agentku</i></q>
+            </figcaption>
+          </div>
+          <div class="profile">
+            <img src="assets/1.png" alt="No-Profile" />
+            <p>
+              Florence Hughes <br />
+              <i>Ibu Rumah Tangga, 28</i>
+            </p>
+          </div>
+          <hr />
+        </div>
+
+        <!-- konten form -->
+        <div class="section-content-kanan">
+          <form class="form-section" name="contact-form">
+            <h3>Contact Us</h3>
+            <h5>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</h5>
+            <br />
+            <label> Your Name:</label> <br />
+            <input type="text" name="username" placeholder="First and last name" /> <br />
+            <label> Email Address: </label> <br />
+            <input type="text" name="email-address" placeholder="example@gmail.com" /> <br />
+            <label for="opsi">What are you interested in?</label>
+            <select id="opsi" name="opsi" class="input" required>
+              <!-- Menambahkan atribut required -->
+              <option>Select option</option>
+              <option>Bali</option>
+              <option>Japan</option>
+              <option>Singapore</option>
+            </select>
+            <br />
+            <button type="button" id="send-button">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="feature">
+        <blockquote>
+          <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of yout service or product</p>
+        </blockquote>
+
+        <ul class="list">
+          <li class="item">
+            <div class="content">
+              <img src="assets/2.png" alt="No-satu" />
+              <p>Your first feature, written in the form of a benefit statement.</p>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/3.png" alt="No-dua" />
+              <p>Your second feature, written in the form of a benefit statement.</p>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/4.png" alt="No-tiga" />
+              <p>Your third feature written, in the form of a benefit statement.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="second-content">
+      <header>
+        <h1>Our Package</h1>
+      </header>
+
+      <div>
+        <ul class="list">
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Bali</h6>
+                <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kulier yang menarik</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Japan</h6>
+                <p>Travel dan wisata di Japan. kunjungi cagar budaya dan kulier yang menarik</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Singapore</h6>
+                <p>This description supports and extends the bullet point above</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <hr id="hash" />
+      <br />
+      <div>
+        <ul class="list">
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Bandung</h6>
+                <p>This description supports and extends the bullet point above</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Surabaya</h6>
+                <p>This description supports and extends the bullet point above</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="content">
+              <img src="assets/5.png" alt="Idea" />
+              <div class="description">
+                <h6>Third Feature</h6>
+                <p>This description supports and extends the bullet point above</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <br />
+
+    <section class="closing">
+      <h5>Your Closing Argument Headline</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tempore. Facere quaerat, sapiente ipsam autem eveniet quae. Hic quasi atque recusandae, doloremque, eligendi ipsa ipsam adipisci quis enim tenetur quas.</p>
+      <button id="button">CALL TO ACTION</button>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/7.png" alt="Logo" />
+    <div class="information">
+      <div class="links">
+        <p>Terms of Service</p>
+        <p>&#169; 2019</p>
+      </div>
+      <div class="copyright">
+        <p>Privacy Policy</p>
+        <p>Moqups</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
